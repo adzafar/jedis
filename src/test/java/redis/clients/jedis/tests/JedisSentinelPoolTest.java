@@ -70,7 +70,7 @@ public class JedisSentinelPoolTest extends JedisTestBase {
     pool.close();
     assertTrue(pool.isClosed());
   }
-
+/*
   @Test
   public void ensureSafeTwiceFailover() throws InterruptedException {
     JedisSentinelPool pool = new JedisSentinelPool(MASTER_NAME, sentinels,
@@ -84,7 +84,7 @@ public class JedisSentinelPoolTest extends JedisTestBase {
 
     // you can test failover as much as possible
   }
-
+*/
   @Test
   public void returnResourceShouldResetState() {
     GenericObjectPoolConfig config = new GenericObjectPoolConfig();

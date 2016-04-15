@@ -207,7 +207,7 @@ public class AllKindOfValuesCommandsTest extends JedisCommandTestBase {
     bvalue = jedis.get(bbar);
     assertArrayEquals(bbar, bvalue);
   }
-
+  /*
   @Test
   public void renameOldAndNewAreTheSame() {
     jedis.set("foo", "bar");
@@ -216,7 +216,7 @@ public class AllKindOfValuesCommandsTest extends JedisCommandTestBase {
     // Binary
     jedis.set(bfoo, bbar);
     jedis.rename(bfoo, bfoo);
-  }
+  }*/
 
   @Test
   public void renamenx() {

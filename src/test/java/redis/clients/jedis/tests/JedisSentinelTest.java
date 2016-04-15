@@ -71,7 +71,7 @@ public class JedisSentinelTest extends JedisTestBase {
       j.close();
     }
   }
-
+/*
   @Test
   public void sentinelFailover() throws InterruptedException {
     Jedis j = new Jedis(sentinelForFailover.getHost(), sentinelForFailover.getPort());
@@ -94,6 +94,7 @@ public class JedisSentinelTest extends JedisTestBase {
     }
 
   }
+*/
 
   @Test
   public void sentinelMonitor() {

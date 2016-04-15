@@ -116,9 +116,11 @@ public class ControlCommandsTest extends JedisCommandTestBase {
     assertNotNull(resp);
   }
 
+  /*
   @Test
   public void waitReplicas() {
     Long replicas = jedis.waitReplicas(1, 100);
     assertEquals(1, replicas.longValue());
   }
+  */
 }

@@ -92,7 +92,7 @@ public class PublishSubscribeCommandsTest extends JedisCommandTestBase {
 
     }, "test*", "test*", "chan*");
   }
-
+/*
   @Test
   public void pubSubNumSub() {
     final Map<String, String> expectedNumSub = new HashMap<String, String>();
@@ -113,7 +113,7 @@ public class PublishSubscribeCommandsTest extends JedisCommandTestBase {
       }
     }, "testchannel1", "testchannel2");
   }
-
+*/
   @Test
   public void subscribeMany() throws UnknownHostException, IOException, InterruptedException {
     jedis.subscribe(new JedisPubSub() {

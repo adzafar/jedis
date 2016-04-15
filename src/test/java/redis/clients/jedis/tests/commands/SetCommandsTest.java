@@ -130,7 +130,7 @@ public class SetCommandsTest extends JedisCommandTestBase {
     assertNull(bmember);
 
   }
-
+/*
   @Test
   public void spopWithCount() {
     jedis.sadd("foo", "a");
@@ -165,7 +165,7 @@ public class SetCommandsTest extends JedisCommandTestBase {
     assertTrue(bmembers.isEmpty());
 
   }
-
+*/
   @Test
   public void smove() {
     jedis.sadd("foo", "a");

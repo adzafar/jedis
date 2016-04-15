@@ -20,7 +20,7 @@ public class ObjectCommandsTest extends JedisCommandTestBase {
     assertEquals(new Long(1), refcount);
 
   }
-
+/*
   @Test
   public void objectEncoding() {
     jedis.lpush(key, "hello world");
@@ -31,7 +31,7 @@ public class ObjectCommandsTest extends JedisCommandTestBase {
     encoding = SafeEncoder.encode(jedis.objectEncoding(binaryKey));
     assertEquals("quicklist", encoding);
   }
-
+*/
   @Test
   public void objectIdletime() throws InterruptedException {
     jedis.lpush(key, "hello world");
